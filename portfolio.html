@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumière Photography</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google font CDN -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon CDN -->
+    <link rel="icon" type="image/png" href="./Lumière Photography Badge.png">
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#faf9f6] text-[#292722]">
+    <!-- header -->
+    <header class="bg-[#faf9f6]">
+      <nav class="mx-auto max-w-7xl px-6 py-5">
+        <div class="flex items-center justify-between">
+          <a href="index.html" class="font-serif text-3xl tracking-wide"
+            >lumière<span class="text-[#a47b55]">.</span></a
+          >
+          <div class="hidden items-center gap-9 md:flex">
+            <a
+              href="index.html"
+              class="text-sm text-[#514d46] hover:text-[#a47b55]"
+              >Home</a
+            ><a
+              href="about.html"
+              class="text-sm text-[#514d46] hover:text-[#a47b55]"
+              >About</a
+            ><a
+              href="portfolio.html"
+              class="text-sm text-[#a47b55] font-semibold"
+              >Portfolio</a
+            ><a
+              href="services.html"
+              class="text-sm text-[#514d46] hover:text-[#a47b55]"
+              >Services</a
+            ><a
+              href="contact.html"
+              class="text-sm text-[#514d46] hover:text-[#a47b55]"
+              >Contact</a
+            >
+          </div>
+          <a
+            href="contact.html"
+            class="hidden border border-[#292722] px-5 py-3 text-xs tracking-widest hover:bg-[#292722] hover:text-white md:block"
+            >LET'S TALK</a
+          >
+          <label
+            for="menu-toggle"
+            class="cursor-pointer text-2xl md:hidden"
+            aria-label="Open menu"
+            >☰</label
+          >
+        </div>
+        <input type="checkbox" id="menu-toggle" class="peer hidden" />
+        <div
+          class="hidden border-t border-[#e7e2da] pt-4 peer-checked:block md:hidden"
+        >
+          <a href="index.html" class="block py-2 text-sm text-[#514d46]">Home</a
+          ><a href="about.html" class="block py-2 text-sm text-[#514d46]"
+            >About</a
+          ><a
+            href="portfolio.html"
+            class="block py-2 text-sm text-[#a47b55] font-semibold"
+            >Portfolio</a
+          ><a href="services.html" class="block py-2 text-sm text-[#514d46]"
+            >Services</a
+          ><a href="contact.html" class="block py-2 text-sm text-[#514d46]"
+            >Contact</a
+          >
+        </div>
+      </nav>
+    </header>
+    <!-- main section -->
+    <main>
+      <section class="bg-[#f0ede7] px-6 py-20 text-center md:py-24">
+        <p class="text-xs tracking-[0.25em] text-[#a47b55]">
+          A COLLECTION OF STORIES
+        </p>
+        <h1 class="mt-5 font-serif text-5xl md:text-6xl">The portfolio</h1>
+        <p class="mx-auto mt-6 max-w-2xl text-sm leading-8 text-[#777168]">
+          A selection of people, places and moments captured along the way.
+        </p>
+      </section>
+      <section class="mx-auto max-w-7xl px-6 py-16">
+        <h2 class="mb-8 mt-12 font-serif text-3xl">Weddings & celebrations</h2>
+        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+          <img
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=85"
+            alt="Weddings & celebrations photograph 1"
+            class="h-80 w-full object-cover"
+          /><img
+            src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=900&q=85"
+            alt="Weddings & celebrations photograph 2"
+            class="h-80 w-full object-cover"
+          /><img
+            src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=900&q=85"
+            alt="Weddings & celebrations photograph 3"
+            class="h-80 w-full object-cover"
+          />
+        </div>
+        <h2 class="mb-8 mt-12 font-serif text-3xl">Portraits</h2>
+        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+          <img
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85"
+            alt="Portraits photograph 1"
+            class="h-80 w-full object-cover"
+          /><img
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85"
+            alt="Portraits photograph 2"
+            class="h-80 w-full object-cover"
+          /><img
+            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85"
+            alt="Portraits photograph 3"
+            class="h-80 w-full object-cover"
+          />
+        </div>
+        <h2 class="mb-8 mt-12 font-serif text-3xl">Travel & nature</h2>
+        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+          <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=85"
+            alt="Travel & nature photograph 1"
+            class="h-80 w-full object-cover"
+          /><img
+            src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=900&q=85"
+            alt="Travel & nature photograph 2"
+            class="h-80 w-full object-cover"
+          /><img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85"
+            alt="Travel & nature photograph 3"
+            class="h-80 w-full object-cover"
+          />
+        </div>
+      </section>
+      <section class="bg-[#f0ede7] px-6 py-16 text-center">
+        <h2 class="font-serif text-3xl md:text-4xl">Have a project in mind?</h2>
+        <a
+          href="contact.html"
+          class="mt-7 inline-block bg-[#292722] px-8 py-4 text-xs tracking-widest text-white"
+          >CONTACT ME</a
+        >
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-[#25231f] px-6 py-12 text-white">
+      <div class="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
+        <div>
+          <a href="index.html" class="font-serif text-3xl"
+            >lumière<span class="text-[#c6a783]">.</span></a
+          >
+          <p class="mt-4 max-w-sm text-sm leading-7 text-white/65">
+            Photographs that hold on to the feeling of a moment, long after it
+            has passed.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-xs tracking-[0.2em] text-[#c6a783]">EXPLORE</h3>
+          <div class="mt-4 flex flex-col gap-3 text-sm text-white/75">
+            <a href="about.html">About</a><a href="portfolio.html">Portfolio</a
+            ><a href="services.html">Services</a
+            ><a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xs tracking-[0.2em] text-[#c6a783]">GET IN TOUCH</h3>
+          <p class="mt-4 text-sm text-white/75">hello@lumierephoto.com</p>
+          <p class="mt-2 text-sm text-white/75">+91 98765 43210</p>
+          <p class="mt-2 text-sm text-white/75">Kochi, Kerala, India</p>
+        </div>
+      </div>
+      <div
+        class="mx-auto mt-10 max-w-7xl border-t border-white/15 pt-6 text-xs text-white/50"
+      >
+        © 2026 Lumière Photography. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>

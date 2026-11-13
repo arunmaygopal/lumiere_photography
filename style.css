@@ -1,0 +1,13 @@
+/* Small global styles used with Tailwind classes */
+body {
+  font-family: "DM Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+.font-serif {
+  font-family: "Playfair Display", Georgia, serif;
+}
+html {
+  scroll-behavior: smooth;
+}
